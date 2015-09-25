@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		927DD07F1BB233FE00EA3E01 /* AnalyzeBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927DD07E1BB233FE00EA3E01 /* AnalyzeBalanceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		927DD0821BB2633000EA3E01 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 927DD0811BB2633000EA3E01 /* XYPieChart.m */; settings = {ASSET_TAGS = (); }; };
+		927DD0851BB28AF900EA3E01 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 927DD0831BB28AF900EA3E01 /* iTunesArtwork.png */; settings = {ASSET_TAGS = (); }; };
+		927DD0861BB28AF900EA3E01 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 927DD0841BB28AF900EA3E01 /* iTunesArtwork@2x.png */; settings = {ASSET_TAGS = (); }; };
+		92C1CE961BB10F6900BC9E69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1CE951BB10F6900BC9E69 /* main.m */; };
+		92C1CE991BB10F6900BC9E69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1CE981BB10F6900BC9E69 /* AppDelegate.m */; };
+		92C1CE9C1BB10F6900BC9E69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1CE9B1BB10F6900BC9E69 /* ViewController.m */; };
+		92C1CE9F1BB10F6900BC9E69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C1CE9D1BB10F6900BC9E69 /* Main.storyboard */; };
+		92C1CEA11BB10F6900BC9E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C1CEA01BB10F6900BC9E69 /* Assets.xcassets */; };
+		92C1CEA41BB10F6900BC9E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C1CEA21BB10F6900BC9E69 /* LaunchScreen.storyboard */; };
+		92C1CEAD1BB1266D00BC9E69 /* UpdateBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1CEAC1BB1266D00BC9E69 /* UpdateBalanceViewController.m */; settings = {ASSET_TAGS = (); }; };
+		92C1CEB01BB13B3400BC9E69 /* DatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1CEAF1BB13B3400BC9E69 /* DatePickerController.m */; settings = {ASSET_TAGS = (); }; };
+		92C1CEB31BB153B700BC9E69 /* BankAccountModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92C1CEB11BB153B700BC9E69 /* BankAccountModel.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		92C1CEC11BB1571A00BC9E69 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1CEBF1BB1571A00BC9E69 /* Entity.m */; settings = {ASSET_TAGS = (); }; };
+		92C1CEC41BB16C6D00BC9E69 /* ComputeBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1CEC31BB16C6D00BC9E69 /* ComputeBalanceViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		927DD07D1BB233FE00EA3E01 /* AnalyzeBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyzeBalanceViewController.h; sourceTree = "<group>"; };
+		927DD07E1BB233FE00EA3E01 /* AnalyzeBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyzeBalanceViewController.m; sourceTree = "<group>"; };
+		927DD0801BB2633000EA3E01 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		927DD0811BB2633000EA3E01 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		927DD0831BB28AF900EA3E01 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		927DD0841BB28AF900EA3E01 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		92C1CE911BB10F6900BC9E69 /* BankAccount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankAccount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C1CE951BB10F6900BC9E69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92C1CE971BB10F6900BC9E69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92C1CE981BB10F6900BC9E69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92C1CE9A1BB10F6900BC9E69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92C1CE9B1BB10F6900BC9E69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92C1CE9E1BB10F6900BC9E69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92C1CEA01BB10F6900BC9E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C1CEA31BB10F6900BC9E69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92C1CEA51BB10F6900BC9E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C1CEAB1BB1266D00BC9E69 /* UpdateBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateBalanceViewController.h; sourceTree = "<group>"; };
+		92C1CEAC1BB1266D00BC9E69 /* UpdateBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateBalanceViewController.m; sourceTree = "<group>"; };
+		92C1CEAE1BB13B3400BC9E69 /* DatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerController.h; sourceTree = "<group>"; };
+		92C1CEAF1BB13B3400BC9E69 /* DatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerController.m; sourceTree = "<group>"; };
+		92C1CEB21BB153B700BC9E69 /* BankAccountModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BankAccountModel.xcdatamodel; sourceTree = "<group>"; };
+		92C1CEBC1BB1571A00BC9E69 /* Entity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Entity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		92C1CEBD1BB1571A00BC9E69 /* Entity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Entity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		92C1CEBE1BB1571A00BC9E69 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		92C1CEBF1BB1571A00BC9E69 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		92C1CEC21BB16C6D00BC9E69 /* ComputeBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputeBalanceViewController.h; sourceTree = "<group>"; };
+		92C1CEC31BB16C6D00BC9E69 /* ComputeBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputeBalanceViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C1CE8E1BB10F6900BC9E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C1CE881BB10F6900BC9E69 = {
+			isa = PBXGroup;
+			children = (
+				92C1CE931BB10F6900BC9E69 /* BankAccount */,
+				92C1CE921BB10F6900BC9E69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C1CE921BB10F6900BC9E69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C1CE911BB10F6900BC9E69 /* BankAccount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C1CE931BB10F6900BC9E69 /* BankAccount */ = {
+			isa = PBXGroup;
+			children = (
+				92C1CE971BB10F6900BC9E69 /* AppDelegate.h */,
+				92C1CE981BB10F6900BC9E69 /* AppDelegate.m */,
+				92C1CE9A1BB10F6900BC9E69 /* ViewController.h */,
+				92C1CE9B1BB10F6900BC9E69 /* ViewController.m */,
+				92C1CEAB1BB1266D00BC9E69 /* UpdateBalanceViewController.h */,
+				92C1CEAC1BB1266D00BC9E69 /* UpdateBalanceViewController.m */,
+				92C1CEC21BB16C6D00BC9E69 /* ComputeBalanceViewController.h */,
+				92C1CEC31BB16C6D00BC9E69 /* ComputeBalanceViewController.m */,
+				927DD07D1BB233FE00EA3E01 /* AnalyzeBalanceViewController.h */,
+				927DD07E1BB233FE00EA3E01 /* AnalyzeBalanceViewController.m */,
+				92C1CEAE1BB13B3400BC9E69 /* DatePickerController.h */,
+				92C1CEAF1BB13B3400BC9E69 /* DatePickerController.m */,
+				927DD0801BB2633000EA3E01 /* XYPieChart.h */,
+				927DD0811BB2633000EA3E01 /* XYPieChart.m */,
+				927DD0831BB28AF900EA3E01 /* iTunesArtwork.png */,
+				927DD0841BB28AF900EA3E01 /* iTunesArtwork@2x.png */,
+				92C1CE9D1BB10F6900BC9E69 /* Main.storyboard */,
+				92C1CEA01BB10F6900BC9E69 /* Assets.xcassets */,
+				92C1CEA21BB10F6900BC9E69 /* LaunchScreen.storyboard */,
+				92C1CEA51BB10F6900BC9E69 /* Info.plist */,
+				92C1CE941BB10F6900BC9E69 /* Supporting Files */,
+			);
+			path = BankAccount;
+			sourceTree = "<group>";
+		};
+		92C1CE941BB10F6900BC9E69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C1CE951BB10F6900BC9E69 /* main.m */,
+				92C1CEB11BB153B700BC9E69 /* BankAccountModel.xcdatamodeld */,
+				92C1CEBC1BB1571A00BC9E69 /* Entity+CoreDataProperties.h */,
+				92C1CEBD1BB1571A00BC9E69 /* Entity+CoreDataProperties.m */,
+				92C1CEBE1BB1571A00BC9E69 /* Entity.h */,
+				92C1CEBF1BB1571A00BC9E69 /* Entity.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C1CE901BB10F6900BC9E69 /* BankAccount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C1CEA81BB10F6900BC9E69 /* Build configuration list for PBXNativeTarget "BankAccount" */;
+			buildPhases = (
+				92C1CE8D1BB10F6900BC9E69 /* Sources */,
+				92C1CE8E1BB10F6900BC9E69 /* Frameworks */,
+				92C1CE8F1BB10F6900BC9E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankAccount;
+			productName = BankAccount;
+			productReference = 92C1CE911BB10F6900BC9E69 /* BankAccount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C1CE891BB10F6900BC9E69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Org;
+				TargetAttributes = {
+					92C1CE901BB10F6900BC9E69 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = U8228M333X;
+					};
+				};
+			};
+			buildConfigurationList = 92C1CE8C1BB10F6900BC9E69 /* Build configuration list for PBXProject "BankAccount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C1CE881BB10F6900BC9E69;
+			productRefGroup = 92C1CE921BB10F6900BC9E69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C1CE901BB10F6900BC9E69 /* BankAccount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C1CE8F1BB10F6900BC9E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C1CEA41BB10F6900BC9E69 /* LaunchScreen.storyboard in Resources */,
+				927DD0861BB28AF900EA3E01 /* iTunesArtwork@2x.png in Resources */,
+				92C1CEA11BB10F6900BC9E69 /* Assets.xcassets in Resources */,
+				927DD0851BB28AF900EA3E01 /* iTunesArtwork.png in Resources */,
+				92C1CE9F1BB10F6900BC9E69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C1CE8D1BB10F6900BC9E69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C1CEC11BB1571A00BC9E69 /* Entity.m in Sources */,
+				92C1CEAD1BB1266D00BC9E69 /* UpdateBalanceViewController.m in Sources */,
+				92C1CEB01BB13B3400BC9E69 /* DatePickerController.m in Sources */,
+				92C1CEC41BB16C6D00BC9E69 /* ComputeBalanceViewController.m in Sources */,
+				92C1CE9C1BB10F6900BC9E69 /* ViewController.m in Sources */,
+				92C1CEB31BB153B700BC9E69 /* BankAccountModel.xcdatamodeld in Sources */,
+				927DD07F1BB233FE00EA3E01 /* AnalyzeBalanceViewController.m in Sources */,
+				92C1CE991BB10F6900BC9E69 /* AppDelegate.m in Sources */,
+				927DD0821BB2633000EA3E01 /* XYPieChart.m in Sources */,
+				92C1CE961BB10F6900BC9E69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92C1CE9D1BB10F6900BC9E69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C1CE9E1BB10F6900BC9E69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92C1CEA21BB10F6900BC9E69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C1CEA31BB10F6900BC9E69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C1CEA61BB10F6900BC9E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92C1CEA71BB10F6900BC9E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C1CEA91BB10F6900BC9E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BankAccount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.BankAccount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		92C1CEAA1BB10F6900BC9E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BankAccount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorg.BankAccount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C1CE8C1BB10F6900BC9E69 /* Build configuration list for PBXProject "BankAccount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C1CEA61BB10F6900BC9E69 /* Debug */,
+				92C1CEA71BB10F6900BC9E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C1CEA81BB10F6900BC9E69 /* Build configuration list for PBXNativeTarget "BankAccount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C1CEA91BB10F6900BC9E69 /* Debug */,
+				92C1CEAA1BB10F6900BC9E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92C1CEB11BB153B700BC9E69 /* BankAccountModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92C1CEB21BB153B700BC9E69 /* BankAccountModel.xcdatamodel */,
+			);
+			currentVersion = 92C1CEB21BB153B700BC9E69 /* BankAccountModel.xcdatamodel */;
+			path = BankAccountModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92C1CE891BB10F6900BC9E69 /* Project object */;
+}
